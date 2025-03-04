@@ -1,0 +1,293 @@
+.App {
+    display: flex;
+    height: 100%;
+    text-align: center;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.App-link {
+    color: #61dafb;
+}
+
+.select-header {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: white;
+    padding-left: 20px;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    padding: 0 8px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+@keyframes App-logo-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+.home-label {
+    display: flex;
+    padding: 10px;
+    font-weight: bold;
+    /*color: white;*/
+}
+
+.home-select {
+    display: flex;
+    align-items: stretch;
+}
+
+.home-select-div {
+    background-color: #68A5AC;
+    display: flex;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.home-content-div {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    /*overflow: auto;*/
+    background-color: #68A5AC;
+}
+
+.test-btn-area {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.test-btn-area-hor {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.test-text-area {
+    display: flex;
+    height: 100%;
+    resize: none;
+    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+}
+
+.test-btn {
+    display: flex;
+    margin-bottom: 10px;
+    min-width: 150px;
+    justify-content: center;
+    /*background-color: #FF9933;*/
+    font-weight: bold;
+
+}
+
+.test-btn-hor {
+    display: flex;
+    margin: 15px;
+    min-width: 250px;
+    justify-content: center;
+    /*background-color: #FF9933;*/
+    font-weight: bold;
+
+}
+
+.conf-test-btn {
+    margin-right: 15px;
+    /*background-color: #FF9933;*/
+    font-weight: bold;
+}
+
+.space-conf {
+    display: flex;
+    margin-right: 15px;
+    margin-left: 15px;
+}
+
+.sh {
+    /*border-width: 1px;*/
+    /*border-style: solid;*/
+    /*border-color: #d9d9d9;*/
+    /*border-radius: 6px;*/
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    overflow: auto;
+
+}
+.service-explorer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-right: 6px;
+    margin-left: 6px;
+
+}
+
+.syntaxhighlighter {
+    font-size: 1em !important;
+    margin: 1em 0 !important;
+    overflow: auto !important;
+    position: relative !important;
+    width: 100% !important;
+    white-space: nowrap;
+    text-overflow: clip;
+    max-height: 100% !important;
+}
+
+div > pre {
+    max-height: 100% !important;
+    overflow: auto !important; /* To handle overflow */
+}
+
+.input-ta {
+    font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace;
+    resize: none;
+}
+
+.waiting * {
+    cursor: wait;
+}
+
+.ant-table .ant-table-container .ant-table-content table thead.ant-table-thead .ant-table-cell {
+    background-color: #68A5AC;
+}
+
+.ant-table-header > table > thead > tr > td.ant-table-cell,
+.ant-table-header > table > thead > tr > th.ant-table-cell
+{
+    background-color: #68A5AC;
+}
+
+.ant-table-row:hover {
+    background-color: #FF9933 !important;
+    /*cursor: pointer;*/
+}
+
+.ant-table-row-level-0:hover > td {
+    background-color: #FF9933 !important;
+}
+
+.ant-table-row-level-1:hover > td {
+    background-color: #FF9933 !important;
+}
+
+.ant-table {
+    overflow: auto;
+    margin-top: 0.5rem;
+    max-height: 30rem;
+}
+
+
+
+.btn-copy {
+    /*margin-left: 5px;*/
+    /*margin-right: 5px;*/
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.sub-container-1 {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    width: 100%;
+    overflow: hidden;
+}
+
+.sub-container-2 {
+    display: flex;
+    flex-grow: 1;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.container-hor {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    margin: 6px 6px 6px 6px;
+    overflow: hidden;
+
+    .child {
+        display: flex;
+        width: 100%; /* Set width of all children to 100% of container */
+        /*border: 1px solid black; !* Just for visualization *!*/
+        box-sizing: border-box; /* Include borders in height and width calculations */
+        overflow: hidden;
+    }
+
+    .child:nth-child(1) {
+        flex: 0 0 25%; /* Make first child div take up 33% of the container's height */
+    }
+
+    .child:nth-child(2) {
+        flex-grow: 0; /* Disable stretching for the second child div */
+        flex-shrink: 0; /* Disable shrinking for the second child div */
+    }
+
+    .child:nth-child(3) {
+        flex: 1 1 auto; /* Make third child div take up remaining space */
+    }
+}
+

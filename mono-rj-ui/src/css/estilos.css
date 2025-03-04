@@ -1,0 +1,365 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+.tipofuente{
+font-family: Arial; 
+}
+.tipofuentebotones{
+font-family: Helvetica Neue; 
+}
+.barra{
+    width: 600px;
+    margin: 0px auto 0px auto; 
+    text-align: center;
+     margin: 0;
+    padding: 0;
+    
+}
+.alinear{
+	float:left;
+}
+.noalinear{
+	clear: both;
+}
+.colornaranja{
+	
+    background-color:  #FF9933;
+    width: 8%;
+    height: 30px;
+	
+}
+
+.colorblanco{
+	
+    background-color:  #FFFFFF;
+    width: 8%;
+    height: 30px;
+	
+}
+.colorverde{
+	
+    background-color:  #05565A;
+	margin-bottom:100px;
+}
+.colorverdeborderight{
+    border-right-color: #FFFFFF;
+	border-right-style: solid; 
+	border-width: 0.5px;
+}
+.colorverdebordeleft{
+    border-left-color: #FFFFFF;
+	border-left-style: solid; 
+	border-width: 1px;
+}
+
+.tamanobarra{
+	width: 80%;
+}
+.tamanobarra1{
+	width: 2%;
+	height: 30px;
+	
+}
+.imagen2{
+    
+    height: 30px;
+	horizontal-align: top;
+
+	
+}
+
+.colorazulclaro{
+    background-color: #D9FFFF;
+    height: 15px;
+	width: 80%;
+	margin-left: 5em;
+	margin-right: 2em;
+	text-align:center;
+	margin-bottom: 25px;
+}
+.colorazulclaro1{
+    background-color: #D9FFFF;
+    height: 15px;
+	width: 65%;
+	margin-left: 5em;
+	margin-right: 2em;
+	vertical-align:baseline;
+	
+}
+.bordeazulclaro{
+   border-width:3px;	
+	border-style: ridge;
+	border-color: #D9FFFF #D9FFFF;
+}
+.colorletraazul{
+    
+	color: #3C8C93;
+	
+}
+.colorazulpie{
+    background-color:  #99CCCC;
+    width: 100%;
+    height: 25px;
+    
+}
+
+.colorlineaazul{
+	border-top-color: #68A5AC;
+	border-right-color: #68A5AC;
+	border-bottom-color: #68A5AC;
+	border-left-color: #68A5AC;
+    border-style: solid; 
+	border-width: 1px;
+	width: 100%;
+	 margin: 1em;
+	height: 375px;
+	/*bordes redondeados*/
+/*	border-radius: 10px 10px 10px 10px;
+	-moz-border-radius: 10px 10px 10px 10px;
+	-webkit-border-radius: 10px 10px 10px 10px;
+	border: 2px solid #68A5AC;*/
+}
+.imagen{
+    width: 270px;
+    height: 72px;
+	vertical-align:baseline;
+	 margin-right: 22px;
+	 margin-left: 15px;
+}
+.imagen3{
+    width: 270px;
+    height: 72px;
+	vertical-align:baseline;
+	 margin-left: 22px;
+}
+.tamanoimg{
+    min-width: 120px;
+    min-height: 72px;
+	
+}
+.posicion{
+	position:relative;
+	vertical-align:bottom;
+
+}
+.etiqueta{
+     text-align: left;
+     margin: 1;
+     height: 15px;
+	 top:6px;
+	 width:65%;
+    
+
+}
+.textosparrafo{
+	font-size: 8pt;
+
+}
+.textosbarra{
+	font-size: 10pt;
+	font-weight: bold;
+	color: #FFFFFF;
+	 text-align: left;
+	
+}
+.textoscabeceras{
+	font-size: 10pt;
+
+	font-weight: bold;	
+}
+.textosbotones{
+	font-size: 8pt;
+
+}
+.tabla{
+	width: 100%;
+}
+.textosalignDerecha{
+	text-align: right;
+}
+.textosalignIzquierda{
+	text-align: left;
+}
+.textosalignCenter{
+	text-align: center;
+}
+ 
+.bordeDivDerecho{
+	border-right: 1px solid #99CCCC; 
+}
+
+.bordeDivIzquierdo{
+	border-left: 1px solid #99CCCC; 
+}
+.divBotones{
+	width: 49%;
+	 top: 50px;
+     bottom: 50px;
+	 text-align:center;
+	 
+}
+
+.boton{
+	width: 200px;
+	height: 25px;
+}
+
+.vertical-centered-text {
+  height: 30px;
+  display: table;
+}
+  .vertical-centered-text > * {
+    display: table-cell;
+    vertical-align: center;
+  }
+
+
+  .vertical-centered-text2 {
+  height: 30px;
+  width:100%;
+  display: table;
+}
+  .vertical-centered-text2 > * {
+    display: table-cell;
+    vertical-align: center;
+  }
+
+  
+.botonTratadodiseno{
+border: none;
+width: 250px;
+height: 25px;
+text-align: center; 
+}
+
+.botonTratadoRedondeo{
+
+-webkit-border-radius:10px;
+-moz-border-radius:10px;
+-ms-border-radius:10px;
+-o-border-radius:10px;
+border-radius:10px;
+behavior: url(/AccesoAgrariosBBVA/AccesoAgrariosBBVA.htc);
+
+}
+.divTratadoRedondeo{
+
+border-radius: 50px 50px 50px 50px;
+-moz-border-radius: 50px 50px 50px 50px;
+-webkit-border-radius: 50px 50px 50px 50px;
+behavior: url(/AccesoAgrariosBBVA/AccesoAgrariosBBVA.htc);
+
+}
+.botonTratadoRedondeoColor{
+
+-webkit-box-shadow: #a3a3a3 0px 2px 3px;
+-moz-box-shadow: #a3a3a3 0px 2px 3px;
+box-shadow: #a3a3a3 0px 2px 3px;
+behavior: url(/AccesoAgrariosBBVA/AccesoAgrariosBBVA.htc);
+
+}
+.botonTratadoDegradado{	
+
+background: #FFFFFF;
+background: -webkit-gradient(linear, 0 0, 0 bottom, from(#FFFFFF), to(#CBC9C9));
+background: -webkit-linear-gradient(#FFFFFF, #CBC9C9);
+background: -moz-linear-gradient(#FFFFFF, #CBC9C9);
+background: -ms-linear-gradient(#FFFFFF, #CBC9C9);
+background: -o-linear-gradient(#FFFFFF, #CBC9C9);
+background: linear-gradient(#FFFFFF, #CBC9C9);
+-pie-background: linear-gradient(#FFFFFF, #CBC9C9);
+/*degradado ie8*/
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#CBC9C9');
+   -ms-filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#FFFFFF', endColorstr='#CBC9C9');
+behavior: url(/AccesoAgrariosBBVA/AccesoAgrariosBBVA.htc);
+
+}
+
+
+.datospantalla{
+	width: 900px;
+	border:4px;
+	border-color: #000000;
+	border-width: 1px;
+	display: inline-block;
+}
+ .vertical-centered-text {
+  float:left;
+  height: 40px;
+  display: table;
+  border-collapse: collapse;
+}
+  .vertical-centered-text > * {
+    display: table-cell;
+    vertical-align: middle;
+	
+  }
+.imagen2{
+    
+    height: 40px;
+	
+}
+
+.colornaranja{
+    background-color:  #FF9933;
+    width: 8%;
+    height: 40px;
+	
+}
+.colorverde{
+    background-color:  #05565A;
+	margin-left: 10px;
+	width: 80%;
+}
+
+.fuenteBarra{
+	font-family: Arial; 
+}
+.colorfuenteBarra{
+	color: #FFFFFF;
+	
+}
+.tamanofuenteBarra{
+	font-size: 12pt;
+	font-weight: bold;
+	
+}
+.separador{
+	 margin-top:10px;
+}
+
+.parrafo{
+	margin-left:10px;
+	margin-right:10px;
+	margin-top:50px;
+	width: 90%;
+	
+	
+}
+
+#flotante
+{
+	position: absolute;
+	display:none;
+	font-family:Helvetica Neue;
+	font-size:0.8em;
+	width:200px;
+	border:1px solid #808080;
+	background-color:#FFFFFF;
+
+}
+
+.botonTratadodisenoMenu{
+border: none;
+width: 150px;
+height: 25px;
+text-align: left; 
+}
+
+
+ul#ulflotante li {
+     list-style-image: url("../img/guion.gif");
+	 align: center;
+}
